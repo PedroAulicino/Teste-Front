@@ -1,0 +1,50 @@
+body {
+  margin-top: 40px;
+}
+
+div {
+  text-align: center;
+}
+
+label {
+  display: block;
+  padding: 10px;
+}
+input {
+  margin-top: 40px;
+  width: 40%;
+  height: 1.6rem;
+  border: none;
+  outline: 0;
+  border-bottom: 2px solid;
+  border-color: #000000;
+}
+button {
+  background-color: #123456;
+  color: #ffffff;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+select {
+  width: 42%;
+  height: 1.6rem;
+  border: none;
+  outline: 0;
+  border-bottom: 2px solid;
+  border-color: #000000;
+}
+
+@media (max-width: 767px) {
+  input {
+    width: 70%;
+  }
+  select {
+    width: 70%;
+  }
+}
